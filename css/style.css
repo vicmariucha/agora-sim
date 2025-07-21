@@ -125,6 +125,143 @@ body {
   display: block;
 }
 
+/* CLIENTES */
+.clientes {
+    background-color: #3956A4;
+    padding: 4rem 2rem;
+  }
+  
+  .clientes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .clientes h2 {
+    font-size: 36px;
+    color: #F4F2E9;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+  }
+  
+  .clientes-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  
+  .clientes-logos img {
+    height: 60px;
+    object-fit: contain;
+    max-width: 100%;
+    filter: brightness(0) invert(1); /* deixa os logos brancos (remova se tiver versão clara) */
+    transition: transform 0.3s ease;
+  }
+  
+  .clientes-logos img:hover {
+    transform: scale(1.05);
+  }
+
+
+  /* SERVIÇOS */
+.servicos {
+    background-color: #F4F2E9;
+    padding: 4rem 2rem;
+  }
+  
+  .servicos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .servicos h2 {
+    font-size: 36px;
+    color: #002D92;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+  }
+  
+  .servicos-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    position: relative;
+  }
+  
+  .card {
+    flex: 1;
+    text-align: left;
+    padding: 0 1rem;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card .emoji {
+    font-size: 28px;
+    display: inline-block;
+  }
+  
+  .card h3 {
+    font-size: 30px;
+    color: #002D92;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.3;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #002D92;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Divisores entre cards */
+  .divider {
+    width: 3px;
+    background-color: #D4E759;
+    height: auto;
+  }
+  
+  /* Botão reutilizável */
+  .btn-primario {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #002D92;
+    color: #F4F2E9;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 90px;
+    text-decoration: none;
+    margin: 4rem auto 0;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-primario:hover {
+    background-color: #001f66;
+  }
+  
+  .btn-primario img {
+    height: 16px;
+    width: auto;
+  }
+  
+
+
 /* FOOTER */
 .site-footer {
   background-color: #F4F2E9;
@@ -133,6 +270,8 @@ body {
   color: #002D92;
   font-size: 16px;
 }
+
+
 
 /* RESPONSIVO */
 @media (max-width: 1024px) {
@@ -158,6 +297,28 @@ body {
     width: 100%;
     height: auto;
   }
+
+  .servicos-cards {
+    gap: 1.5rem;
+  }
+
+  .divider {
+    width: 2px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 15px;
+  }
+
+  .btn-primario {
+    font-size: 18px;
+    padding: 0.8rem 1.5rem;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -168,5 +329,34 @@ body {
   .btn-contato {
     font-size: 18px;
     padding: 0.5rem 1.2rem;
+  }
+  .clientes-logos {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .clientes-logos img {
+    height: 50px;
+  }
+  .servicos-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    text-align: center;
+    padding: 0;
+  }
+
+  .card-header {
+    justify-content: center;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .btn-primario {
+    margin-top: 3rem;
   }
 }
