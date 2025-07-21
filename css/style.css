@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.site-header {
+  background-color: #F4F2E9;
+  padding: 0 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10rem;
+}
+
+.logo img {
+  width: auto;
+  height: 200px;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem; /* espaço entre menu e botão */
+  }
+
+.main-nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #002D92;
+  font-weight: 500;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.btn-contato {
+  background-color: #002D92;
+  color: #F4F2E9;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-contato:hover {
+  background-color: #001f66; 
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: #F4F2E9;
+    padding: 0rem 10rem;
+  }
+  
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .hero-text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .hero-text h1 {
+    font-size: 55px;
+    color: #002D92;
+    font-weight: 400; 
+    line-height: 1.2;
+  }
+  
+  .hero-text .bold {
+    font-weight: 500; 
+  }
+  
+  .hero-btn {
+    display: inline-block;
+    background-color: #002D92;
+    color: #F4F2E9;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 90px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.3s;
+  }
+  
+  .hero-btn:hover {
+    background-color: #001f66;
+  }
+  
+  .hero-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
+@media (max-width: 768px) {
+  .main-nav ul {
+    display: none;
+  }
+
+  .btn-contato {
+    font-size: 18px;
+    padding: 0.5rem 1.2rem;
+  }
+}
