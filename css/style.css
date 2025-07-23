@@ -86,7 +86,7 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 55px;
+  font-size: 2.8rem;
   color: #002D92;
   font-weight: 400;
   line-height: 1.2;
@@ -100,14 +100,14 @@ body {
   display: inline-block;
   background-color: #002D92;
   color: #F4F2E9;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 400;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   border-radius: 90px;
   text-decoration: none;
   text-transform: uppercase;
   transition: background 0.3s;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .hero-btn:hover {
@@ -157,7 +157,6 @@ body {
     height: 60px;
     object-fit: contain;
     max-width: 100%;
-    filter: brightness(0) invert(1); /* deixa os logos brancos (remova se tiver versão clara) */
     transition: transform 0.3s ease;
   }
   
@@ -168,22 +167,22 @@ body {
 
   /* SERVIÇOS */
 .servicos {
-    background-color: #F4F2E9;
-    padding: 4rem 2rem;
-  }
+  background-color: #F4F2E9;
+  padding: 4rem 2rem;
+}
   
-  .servicos-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-  }
+.servicos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
   
   .servicos h2 {
     font-size: 36px;
     color: #002D92;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
   }
   
   .servicos-cards {
@@ -191,6 +190,7 @@ body {
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
+    margin: 2rem auto;
     position: relative;
   }
   
@@ -280,7 +280,7 @@ body {
     color: #002D92;
     font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
   }
   
   .projetos-galeria {
@@ -344,7 +344,7 @@ body {
   }
   
   .quem-faz-texto p {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.6;
     margin-bottom: 2.5rem;
@@ -368,6 +368,7 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     text-align: left;
+    padding: 0 4rem;
   }
   
   .footer-top {
@@ -375,7 +376,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 0; /* remove espaçamento com footer-contatos */
+    margin-bottom: 0; 
   }
   
   .footer-left {
@@ -424,7 +425,6 @@ body {
     border-radius: 50px;
     padding: 1rem 2rem;
     width: fit-content;
-    margin-top: 1rem;
     margin-bottom: 3rem;
   }
   
