@@ -389,7 +389,7 @@ body {
 }
 
 .intro-icone .x-icon {
-  width: 60px;
+  width: 3.75rem;
 }
 
 .nossa-historia {
@@ -397,11 +397,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: stretch;
+  padding: 0;
 }
 
 .historia-container {
   display: flex;
   width: 100%;
+  align-items: center; 
 }
 
 .historia-texto {
@@ -427,13 +429,19 @@ body {
 
 .historia-img {
   flex: 1;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
 }
 
 .historia-img img {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
-  display: block;
+  max-height: 40rem;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  align-self: stretch;
 }
 
 .fundadoras {
@@ -455,8 +463,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  max-width: 1600px;
-  margin: 0 auto 4rem;
+  max-width: 1800px;
+  margin: 0 auto 1rem;
   flex-wrap: wrap;
 }
 
@@ -465,14 +473,14 @@ body {
 }
 
 .fundadora .foto img {
-  width: 280px;
-  height: 280px;
+  width: 26rem;
+  height: 26rem;
   object-fit: cover;
   border-radius: 50%;
 }
 
 .fundadora .texto {
-  max-width: 1200px;
+  max-width: 79rem;
   text-align: left;
   font-size: 0.8rem;
   font-weight: 400;
@@ -484,9 +492,12 @@ body {
   font-size: 1rem;
   font-weight: 400;
   padding: 0.5rem 2rem;
+  max-width: fit-content;
   border-radius: 90px;
   margin-bottom: 1rem;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   text-transform: uppercase;
 }
 
@@ -519,13 +530,22 @@ body {
 }
 
 .experiencia-cards .card {
-  background-color: #001f66;
+  background-color: #002D92;
   color: #F4F2E9;
   font-size: 1.2rem;
   font-weight: 400;
-  padding: 1rem 3rem;
+  padding: 1rem 1.5rem;
   border-radius: 90px;
   max-width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.emoji-icon {
+  height: 2rem;
+  vertical-align: middle;
+  margin-right: 0.2rem;
 }
 
 
