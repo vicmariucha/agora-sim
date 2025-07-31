@@ -12,6 +12,15 @@ body {
   background-color: #F4F2E9;
 }
 
+/* Cores utilitárias */
+.branco { color: #F4F2E9; }
+.azul-escuro { color: #002D92; }
+.azul-medio { color: #3956A4; }
+.branco-bg { background-color: #F4F2E9; }
+.azul-medio-bg { background-color: #3956A4; }
+.bg-azul { background-color: #3956A4; }
+.bg-bege { background-color: #F4F2E9; }
+
 /* HEADER */
 .site-header {
   background-color: #F4F2E9;
@@ -656,6 +665,140 @@ body {
   background-color: #001f66;
 }
 
+/* PROJETOS */
+
+.projetos-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.projeto-conteudo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10rem;
+  box-sizing: border-box;
+}
+
+.projeto-img {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.projeto-img img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  display: block;
+  object-fit: contain;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.projeto-titulo {
+  font-size: 2.25rem; 
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.projeto-subtitulo-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.2rem;
+  border-radius: 90px;
+  padding: 0.5rem 1.2rem;
+  max-width: fit-content;
+}
+
+.projeto-subtitulo-wrapper img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.projeto-subtitulo {
+  font-size: 1.5rem; 
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.projeto-descricao {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.projeto-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.375rem; 
+  background-color: #002D92;
+  color: #F4F2E9;
+  text-decoration: none;
+  padding: 0.8rem 2rem;
+  border-radius: 90px;
+  font-weight: 400;
+  max-width: fit-content;
+}
+
+.projeto-btn img {
+  height: 1rem;
+}
+
+.cta-behance {
+  background-color: #3956A4;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.btn-behance {
+  background-color: #F4F2E9;
+  color: #3956A4;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 90px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-behance {
+  background-color: #3956A4;
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-behance img {
+  width: 30px;
+  height: 19px;
+}
 
 /* FOOTER */
 .site-footer {
@@ -804,7 +947,7 @@ body {
   }
 
   .fundadora .texto {
-    max-width: 100%;
+    max-width: 50rem;
     margin: 0 1rem;
   }
 
