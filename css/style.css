@@ -18,6 +18,7 @@ body {
 .azul-medio { color: #3956A4; }
 .branco-bg { background-color: #F4F2E9; }
 .azul-medio-bg { background-color: #3956A4; }
+.azul-escuro-bg { background-color: #002D92; }
 .bg-azul { background-color: #3956A4; }
 .bg-bege { background-color: #F4F2E9; }
 
@@ -800,6 +801,42 @@ body {
   width: 30px;
   height: 19px;
 }
+
+/* PAGINAS PROJETOS */
+
+.projeto-detalhe {
+  background-color: #3956A4;
+  padding: 0 10rem;
+  padding-top: 5rem;
+}
+
+.titulo-projeto {
+  font-size: 3.4375rem; 
+  color: #F4F2E9;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.projeto-texto {
+  font-size: 1.25rem;
+  color: #F4F2E9;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 4rem;
+}
+
+img + .projeto-texto {
+  margin-top: 4rem; 
+}
+
+.imagem-full {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 /* FOOTER */
 .site-footer {
