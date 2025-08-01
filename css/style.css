@@ -572,7 +572,7 @@ body {
 }
 
 .servicos-lista .container {
-  max-width: 100rem;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -632,7 +632,7 @@ body {
 
 .servico-conteudo p {
   color: #002D92;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 400;
   text-align: justify;
   line-height: 1.6;
@@ -650,7 +650,7 @@ body {
   background-color: #002D92;
   color: #F4F2E9;
   padding: 0.8rem 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 400;
   text-transform: uppercase;
   border-radius: 999px;
