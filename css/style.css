@@ -837,6 +837,9 @@ img + .projeto-texto {
   display: block;
 }
 
+.projeto-texto ul {
+  list-style-position: inside;
+}
 
 /* FOOTER */
 .site-footer {
