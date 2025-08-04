@@ -972,7 +972,7 @@ img + .projeto-texto {
 }
 
 .faq-container {
-  max-width: 900px;
+  max-width: 1800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -983,13 +983,15 @@ img + .projeto-texto {
   background-color: #F4F2E9;
   border-radius: 1.875rem;
   color: #002D92;
-  padding: 1rem 2rem;
+  padding: 2rem 3rem;
   text-align: left;
+  width: 100%;
 }
 
 .faq-question {
-  font-size: 1.875rem;
+  font-size: 1.775rem;
   font-weight: 600;
+  color: #002D92;
   background: none;
   border: none;
   width: 100%;
