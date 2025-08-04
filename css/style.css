@@ -245,7 +245,11 @@ body {
     width: 3px;
     background-color: #D4E759;
     height: auto;
+    align-self: stretch;
+    display: block;
+    flex-shrink: 0;
   }
+  
   
   /* Botão reutilizável */
   .btn-primario {
@@ -889,13 +893,6 @@ img + .projeto-texto {
 .servico-texto ul {
   margin-top: 1rem;
   padding-left: 1.5rem;
-}
-
-.divider {
-  width: 2px;
-  background-color: #F4F2E9;
-  height: auto;
-  flex-shrink: 0;
 }
 
 .como-funciona-section {
