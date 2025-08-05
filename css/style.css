@@ -854,7 +854,7 @@ img + .projeto-texto {
 }
 
 .servico-detalhes {
-  padding: 4rem 0;
+  padding: 6rem 0;
   color: #F4F2E9;
 }
 
@@ -862,18 +862,19 @@ img + .projeto-texto {
   display: flex;
   gap: 4rem;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .servico-coluna {
   flex: 1;
+  max-width: 47rem;
 }
 
 .servico-nome-wrapper {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .servico-nome {
@@ -884,8 +885,7 @@ img + .projeto-texto {
 }
 
 .servico-texto {
-  font-size: 1.25rem;
-  font-weight: 400;
+  font-size: 1.15rem;
   text-align: justify;
   color: #F4F2E9;
 }
@@ -898,11 +898,10 @@ img + .projeto-texto {
 }
 
 .servico-texto li {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin-bottom: 0.5rem;
-  line-height: 1.6;
+  line-height: 1;
 }
-
 
 .como-funciona-section {
   background-color: #F4F2E9;
@@ -990,7 +989,7 @@ img + .projeto-texto {
 
 .faq-question {
   font-size: 1.775rem;
-  font-weight: 600;
+  font-weight: 550;
   color: #002D92;
   background: none;
   border: none;
