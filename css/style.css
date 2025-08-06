@@ -12,7 +12,7 @@ body {
   background-color: #F4F2E9;
 }
 
-/* Cores utilitárias */
+/* CORES */
 .branco { color: #F4F2E9; }
 .azul-escuro { color: #002D92; }
 .azul-medio { color: #3956A4; }
@@ -60,6 +60,10 @@ body {
   white-space: nowrap;
 }
 
+.main-nav a:hover{
+  text-decoration: underline;
+}
+
 .btn-contato {
   background-color: #002D92;
   color: #F4F2E9;
@@ -72,7 +76,8 @@ body {
 }
 
 .btn-contato:hover {
-  background-color: #001f66;
+  background-color: #D4E759;
+  color: #002D92;
 }
 
 /* HERO SECTION */
