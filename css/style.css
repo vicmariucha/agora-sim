@@ -80,7 +80,7 @@ body {
   color: #002D92;
 }
 
-/* HERO SECTION */
+/* HOME */
 .hero {
   background-color: #F4F2E9;
   width: 100%;
@@ -140,7 +140,7 @@ body {
   display: block;
 }
 
-/* CLIENTES */
+/* clientes */
 .clientes {
     background-color: #3956A4;
     padding: 4rem 2rem;
@@ -180,7 +180,7 @@ body {
   }
 
 
-  /* SERVIÇOS */
+  /* serviços home */
 .servicos {
   background-color: #F4F2E9;
   padding: 4rem 2rem;
@@ -245,7 +245,6 @@ body {
     text-align: justify;
   }
   
-  /* Divisores entre cards */
   .divider {
     width: 3px;
     background-color: #D4E759;
@@ -255,8 +254,6 @@ body {
     flex-shrink: 0;
   }
   
-  
-  /* Botão reutilizável */
   .btn-primario {
     display: inline-flex;
     align-items: center;
@@ -282,7 +279,7 @@ body {
     width: auto;
   }
   
-/* PROJETOS */
+/* projetos home */
 .projetos {
     background-color: #F4F2E9;
     padding: 4rem 2rem;
@@ -320,7 +317,7 @@ body {
   }
   
 
-/* QUEM FAZ ACONTECER */
+/* quem somos home */
 .quem-faz-acontecer {
     background-color: #F4F2E9;
     padding: 0;
