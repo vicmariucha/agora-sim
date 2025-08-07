@@ -39,7 +39,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css" />
   
-    <!-- Schema.org (Organization + WebPage) -->
+    <!-- Schema.org -->
+    <!-- Organization -->
     <script type="application/ld+json">
     {
       "@context":"https://schema.org",
@@ -58,6 +59,8 @@
       }
     }
     </script>
+  
+    <!-- WebPage -->
     <script type="application/ld+json">
     {
       "@context":"https://schema.org",
@@ -67,7 +70,30 @@
       "description":"Conheça a história da Agora Sim! e das fundadoras Amanda e Eduarda, que transformam ideias em marcas com propósito, estratégia e criatividade."
     }
     </script>
+  
+    <!-- Breadcrumbs -->
+    <script type="application/ld+json">
+    {
+      "@context":"https://schema.org",
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {
+          "@type":"ListItem",
+          "position":1,
+          "name":"Início",
+          "item":"https://agorasimag.com.br/"
+        },
+        {
+          "@type":"ListItem",
+          "position":2,
+          "name":"Quem Somos",
+          "item":"https://agorasimag.com.br/quem-somos.html"
+        }
+      ]
+    }
+    </script>
   </head>
+  
 <body>
 
   <!-- HEADER -->
