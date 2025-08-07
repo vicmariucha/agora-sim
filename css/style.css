@@ -344,7 +344,7 @@ body {
     flex: 1;
     background-color: #3956A4;
     color: #F4F2E9;
-    padding: 4rem;
+    padding: 4rem 10rem 4rem 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -849,7 +849,7 @@ img + .projeto-texto {
 
 /* GESTÃO DE REDES SOCIAIS */
 
-.container {
+.container-gestao {
   padding: 0 10rem;
   max-width: 100%;
   box-sizing: border-box;
