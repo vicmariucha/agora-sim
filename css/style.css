@@ -322,6 +322,12 @@ body.no-scroll {
   flex-shrink: 0;
 }
 
+/* Linha divisória específica da seção "O QUE É / PRA QUEM É" */
+.servico-detalhes-wrapper .divider {
+  background-color: var(--verde);
+  border-radius: 999px;
+}
+
 .btn-primario {
   display: inline-flex;
   align-items: center;
@@ -1009,8 +1015,10 @@ img + .projeto-texto {
   margin-top: 4rem;
 }
 
+/* FAQ */
+
 .faq-section {
-  padding: 4rem 0;
+  padding: 4rem 10rem;
   text-align: center;
 }
 
