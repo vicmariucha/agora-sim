@@ -508,15 +508,15 @@ body.no-scroll {
   height: 100%;
   margin: 0;
   padding: 0;
-  object-fit: cover;   /* preenche toda a altura, sem “barras” */
+  object-fit: cover;
   align-self: stretch;
 }
 
 /* FUNDADORAS */
 
 .fundadoras {
-  padding: 4rem 2rem;
-  text-align: center;
+  padding: 4rem 10rem;
+  text-align: left;
 }
 
 .fundadoras h2 {
@@ -524,16 +524,17 @@ body.no-scroll {
   text-transform: uppercase;
   margin-bottom: 4rem;
   font-weight: 400;
+  text-align: center;
 }
 
-/* Cada fundadora em duas colunas: foto (~40%) + texto (~60%) */
+/* Cada fundadora em duas colunas: foto (~30%) + texto (~70%) */
 .fundadora {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
-  max-width: 80%;
-  margin: 0 auto 4rem;
+  width: 100%;
+  margin: 0 0 4rem 0;
   flex-wrap: nowrap;
 }
 
