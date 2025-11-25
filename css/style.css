@@ -37,6 +37,16 @@ body.no-scroll {
   width: 100%;
 }
 
+/* Espaçamento padrão entre h2 e parágrafo logo abaixo */
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+h2 + p {
+  margin-top: 0.25rem;
+}
+
 /* HEADER */
 .site-header {
   background-color: #F4F2E9;
@@ -911,7 +921,7 @@ img + .projeto-texto {
   list-style-position: inside;
 }
 
-/* GESTÃO DE REDES SOCIAIS */
+/* GESTÃO DE REDES SOCIAIS / COMO FUNCIONA (base) */
 
 .container-gestao {
   padding: 0 10rem;
@@ -965,14 +975,21 @@ img + .projeto-texto {
   line-height: 1;
 }
 
+/* COMO FUNCIONA – base (Identidade Visual + GMN + Estratégia) */
 .como-funciona-section {
-  padding: 6rem 0;
+  padding: 4rem 0 0;
 }
 
-.como-funciona-section h2.servico-titulo {
+.como-funciona-section .servico-titulo {
   font-size: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 0.75rem;
   font-weight: 400;
+}
+
+/* Parágrafo logo abaixo do título – só páginas que têm esse p (Identidade Visual) */
+.como-funciona-section .container-gestao > p:first-of-type {
+  margin-top: 0.25rem;
+  margin-bottom: 2.5rem;
 }
 
 .fase-bloco {
@@ -989,6 +1006,11 @@ img + .projeto-texto {
   font-size: 1.25rem;
   line-height: 1.6;
   margin-bottom: 2rem;
+}
+
+/* último parágrafo da última etapa sem espaço extra embaixo */
+.como-funciona-section .fase-bloco:last-child p:last-of-type {
+  margin-bottom: 0;
 }
 
 .fase-detalhes {
@@ -1013,6 +1035,27 @@ img + .projeto-texto {
   font-size: 1.25rem;
   line-height: 1.6;
   margin-top: 4rem;
+  margin-bottom: 0;
+}
+
+/* Ajuste específico: Estratégia de Conteúdo & Análise */
+.como-funciona-section.como-funciona-estrategia .servico-titulo {
+  margin-bottom: 1.25rem; /* um pouco mais de respiro antes da Fase 1 */
+}
+
+.como-funciona-section.como-funciona-estrategia .fase-bloco:first-child {
+  margin-top: 1.25rem; /* distancia extra entre o título e a Fase 1 */
+}
+
+.como-funciona-section.como-funciona-estrategia .fase-bloco ul {
+  margin-top: 0.4rem;   /* aproxima a lista do h3 */
+  padding-left: 1.5rem; /* indentação bonita dos bullets */
+}
+
+/* Ajuste específico: Google Meu Negócio
+   (section tem classe extra ".como-funciona-gmn") */
+.como-funciona-section.como-funciona-gmn .servico-titulo {
+  margin-bottom: 2.5rem;
 }
 
 /* FAQ */
